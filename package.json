@@ -1,5 +1,5 @@
 {
-  "name": "dropzone",
+  "name": "ampersand-dropzone",
   "version": "0.0.0",
   "description": "ampersand dropzone component",
   "main": "index.js",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/interactar/ampersand-dropzone/issues"
   },
-  "homepage": "https://github.com/interactar/ampersand-dropzone#readme"
+  "homepage": "https://github.com/interactar/ampersand-dropzone#readme",
+  "dependencies": {
+    "ampersand-view": "10.0.1",
+    "dropzone": "4.3.0"
+  }
 }
