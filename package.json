@@ -1,6 +1,6 @@
 {
   "name": "ampersand-component-dropzone",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ampersand dropzone component",
   "main": "index.js",
   "scripts": {
