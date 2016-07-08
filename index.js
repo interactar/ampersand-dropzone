@@ -63,8 +63,6 @@ module.exports = View.extend({
     this.dropzone = dropzone;
 
     this.setDzEvents(this.dzEvents);
-    this.listenTo(this,'change:dzEvents',this.updateDzEvents);
-    //this.listenTo(this,'change',this.updateDzEvents);
   },
   updateDzEvents:function(dzEvents){
     dzEvents||(dzEvents=this.dzEvents);
